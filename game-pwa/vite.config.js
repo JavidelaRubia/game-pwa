@@ -2,6 +2,7 @@ import { defineConfig } from 'vite';
 import { VitePWA } from 'vite-plugin-pwa';
 
 export default defineConfig({
+  base: '/', // Esto asegura que las rutas sean relativas al dominio raíz de Netlify.
   plugins: [
     VitePWA({
       registerType: 'autoUpdate',
