@@ -1,4 +1,4 @@
-import './style.css'
+import '/public/style.css'
 import { setupCounter } from './counter.js'
 
 document.querySelector('#app').innerHTML = `
